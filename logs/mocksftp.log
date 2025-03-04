@@ -1,0 +1,6 @@
+2025-03-04 19:21:22.938 [main] INFO  com.example.mocksftp.SimpleServer - SFTP服务器正在启动，监听端口：2222
+2025-03-04 19:21:23.977 [main] INFO  com.example.mocksftp.SimpleServer - SFTP服务器启动成功
+2025-03-04 19:23:30.769 [main] INFO  com.example.mocksftp.SimpleServer - SFTP服务器正在启动，监听端口：2222
+2025-03-04 19:23:31.822 [main] INFO  com.example.mocksftp.SimpleServer - SFTP服务器启动成功
+2025-03-04 19:44:30.740 [pool-15-thread-1] INFO  com.example.mocksftp.SimpleServer - 用户 admin 连接
+2025-03-04 19:50:27.587 [pool-20-thread-1] INFO  com.example.mocksftp.SimpleServer - 用户 admin 连接
