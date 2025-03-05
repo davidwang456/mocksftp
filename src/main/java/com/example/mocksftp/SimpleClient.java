@@ -32,13 +32,13 @@ public class SimpleClient {
             System.out.println("正在连接到SFTP服务器...");
             
             // 检查文件是否存在
-            File file = new File("D:\\software\\tmp\\POC-C1.zip");
+            File file = new File("D:\\software\\tmp\\POC-T2.json");
             if (!file.exists()) {
                 System.out.println("错误：文件不存在 - " + file.getAbsolutePath());
                 return;
             }
-            sftp.put("D:\\software\\tmp\\POC-C1.zip");
-            
+            sftp.put("D:\\software\\tmp\\POC-T2.json");
+            System.out.println("传送文件成功");
             // 关闭连接
             try {
                 ssh.disconnect();
